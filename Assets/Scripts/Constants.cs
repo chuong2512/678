@@ -28,4 +28,6 @@ internal static class Constants
 			"2"
 		}
 	};
+
+	public static string MENU_SCENE = "";
 }
