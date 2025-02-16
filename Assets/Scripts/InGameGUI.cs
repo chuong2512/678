@@ -130,19 +130,19 @@ public class InGameGUI : MonoBehaviour
 	public void OnTrashButtonClick()
 	{
 		ScoreHandler.instance.LoadFirstUseDustbin();
-		if (ScoreHandler.instance.fristUseDustbin != "true")
+		/*if (ScoreHandler.instance.fristUseDustbin != "true")
 		{
 			this.tip.SetActive(false);
 			GUIManager.instance.OpenMask();
 			GUIManager.instance.ShowRubbish();
 		}
-		else
+		else*/
 		{
-			if (GameManager.instance.trashPrice > ScoreHandler.instance.specialPoints)
+			/*if (GameManager.instance.trashPrice > ScoreHandler.instance.specialPoints)
 			{
 				Store.instance.OpenStore();
 				SoundsManager.instance.PlayAudioSource(SoundsManager.instance.wrongDrop);
-			}
+			}*/
 			if (ScoreHandler.instance.specialPoints >= GameManager.instance.trashPrice)
 			{
 				this.trashButton.interactable = false;

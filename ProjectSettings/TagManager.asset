@@ -42,9 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: "Default"
+  - name: Default
     uniqueID: 0
     locked: 0
-  - name: "Mask"
+  - name: Mask
     uniqueID: 1695696159
+    locked: 0
+  - name: Dice
+    uniqueID: 2343647115
     locked: 0
